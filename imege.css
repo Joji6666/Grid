@@ -1,0 +1,55 @@
+
+body{
+
+    padding: 6rem;
+    background-color: black;
+   
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 500px;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'a a a'
+    'b c c'
+    'b d e'
+    'f f g';
+}
+
+.imege {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imege1 {
+    grid-area: a;
+}
+
+.imege2 {
+    grid-area: b;
+
+}
+
+.imege3 {
+    grid-area: c;
+}
+
+.imege4 {
+    grid-area: d;
+}
+
+.imege5 {
+    grid-area: e;
+}
+
+.imege6 {
+    grid-area: f;
+}
+
+.imege7 {
+    grid-area: g;
+}

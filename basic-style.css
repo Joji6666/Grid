@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #181818;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .color1 {
+    background-color: #ab33de;
+  }
+  .color2 {
+    background-color: #1d445b;
+  }
+  .color3 {
+    background-color: #4c7e16;
+  }
+  .color4 {
+    background-color: #de4a10;
+  }
+  .color5 {
+    background-color: #e89d9d;
+  }
